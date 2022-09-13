@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="task2">
+    <h1>Bài 1: Viết chương trình hiển thị chuỗi “The number is N” 5 lần sử dụng vòng lặp for. Với N sẽ hiển thị từ 0 đến 5.</h1>
+    <p id="hihi"></p>
+  <script>
+    let text="";
+
+    for (let i=0;i<5;i++){
+     text += "the number is "+ i +"<br>"  ;
+
+    }
+    document.getElementById('hihi').innerHTML=text;
+  </script>
+</div>
+<div class="task1">
+    <h1>Bước 2: Khai báo biến total và khởi tạo cho total giá trị ban đầu là 0, biến total dùng để lưu tổng.
+
+    </h1>
+    <p id="ngu"></p>
+    <script>
+        let num =parseInt(prompt("enter your number: "))
+        let total =0;
+        for (let i =0;i<=num;i++){
+            total=total+i
+        }
+        document.getElementById("ngu").innerHTML=total;
+
+    </script>
+</div>
+</body>
+</html>

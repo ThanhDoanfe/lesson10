@@ -12,12 +12,13 @@
   while (i<=10){
   sout=sout+"<tr>";
   while (j<=10){
-  sout=sout+"<td>"+j*i+"</td>";
+  sout=sout+"<td>" + i + "x" + j + "=" + j*i +"</td>";
   j++
   }
   sout=sout+"</tr>"
+      i++;
     j=1;
-  i++;
+
   }
   sout=sout+"</table>";
   document.write(sout);
